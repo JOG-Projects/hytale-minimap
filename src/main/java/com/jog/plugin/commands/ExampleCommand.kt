@@ -1,4 +1,4 @@
-package com.example.plugin.commands
+package com.jog.plugin.commands
 
 import com.hypixel.hytale.server.core.Message
 import com.hypixel.hytale.server.core.command.system.CommandContext
@@ -7,6 +7,6 @@ import javax.annotation.Nonnull
 
 class ExampleCommand : CommandBase("example", "An example command") {
     override fun executeSync(@Nonnull context: CommandContext) {
-        context.sendMessage(Message.raw("Hello world!"))
+        context.sendMessage(Message.raw("Hello world from kotlin!"))
     }
 }

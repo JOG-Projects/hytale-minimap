@@ -1,6 +1,6 @@
-package com.example.plugin.commands
+package com.jog.plugin.commands
 
-import com.example.plugin.utils.ServerUtil.executeWorld
+import com.jog.plugin.utils.ServerUtil.executeWorld
 import com.hypixel.hytale.server.core.Message
 import com.hypixel.hytale.server.core.command.system.CommandContext
 import com.hypixel.hytale.server.core.command.system.arguments.system.RequiredArg
@@ -12,13 +12,13 @@ import javax.annotation.Nonnull
 class TitleCommand : CommandBase("example_title", "Show a title to all players", false) {
     @Nonnull
     private val titleArg: RequiredArg<String?> = this.withRequiredArg<String?>(
-        "title", "com.example.plugin.commands.title.arg.title",
+        "title", "com.jog.plugin.commands.title.arg.title",
         ArgTypes.STRING
     )
 
     @Nonnull
     private val subtitleArg: RequiredArg<String?> = this.withRequiredArg<String?>(
-        "subtitle", "com.example.plugin.commands.title.arg.subtitle",
+        "subtitle", "com.jog.plugin.commands.title.arg.subtitle",
         ArgTypes.STRING
     )
 

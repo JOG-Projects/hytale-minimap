@@ -1,4 +1,4 @@
-package com.example.plugin.commands
+package com.jog.plugin.commands
 
 import com.hypixel.hytale.component.Ref
 import com.hypixel.hytale.component.Store

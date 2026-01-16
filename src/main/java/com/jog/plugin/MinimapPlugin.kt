@@ -1,17 +1,17 @@
-package com.example.plugin
+package com.jog.plugin
 
-import com.example.plugin.commands.CameraCommand
-import com.example.plugin.commands.ExampleCommand
-import com.example.plugin.commands.TitleCommand
-import com.example.plugin.listeners.PlayerChatListener
-import com.example.plugin.listeners.PlayerReadyListener
+import com.jog.plugin.commands.CameraCommand
+import com.jog.plugin.commands.ExampleCommand
+import com.jog.plugin.commands.TitleCommand
+import com.jog.plugin.listeners.PlayerChatListener
+import com.jog.plugin.listeners.PlayerReadyListener
 import com.hypixel.hytale.server.core.event.events.player.PlayerChatEvent
 import com.hypixel.hytale.server.core.event.events.player.PlayerReadyEvent
 import com.hypixel.hytale.server.core.plugin.JavaPlugin
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit
 import javax.annotation.Nonnull
 
-class ExamplePlugin(@Nonnull init: JavaPluginInit) : JavaPlugin(init) {
+class MinimapPlugin(@Nonnull init: JavaPluginInit) : JavaPlugin(init) {
     override fun setup() {
         // Commands
         commandRegistry.registerCommand(CameraCommand())

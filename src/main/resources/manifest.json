@@ -1,20 +1,20 @@
 {
-  "Group": "com.example",
-  "Name": "ExamplePlugin",
+  "Group": "com.jog",
+  "Name": "MinimapPlugin",
   "Version": "1.0.0",
-  "Description": "Your plugin description here.",
+  "Description": "a minimap hopefully",
   "Authors": [
     {
-      "Name": "Your Name",
-      "Email": "your.email@example.com",
-      "Url": "https://example.com"
+      "Name": "João Xavier",
+      "Email": "fastjonh@gmail.com",
+      "Url": "https://github.com/Lothyriel"
     }
   ],
-  "Website": "https://example.com",
+  "Website": "https://github.com/JOG-Projects",
   "ServerVersion": "*",
   "Dependencies": {},
   "OptionalDependencies": {},
   "DisabledByDefault": false,
-  "Main": "com.example.plugin.ExamplePlugin",
+  "Main": "com.jog.plugin.MinimapPlugin",
   "IncludesAssetPack": true
 }

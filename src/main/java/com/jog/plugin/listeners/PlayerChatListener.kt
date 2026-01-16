@@ -1,6 +1,6 @@
-package com.example.plugin.listeners
+package com.jog.plugin.listeners
 
-import com.example.plugin.chat.ChatMessageFormatter
+import com.jog.plugin.chat.ChatMessageFormatter
 import com.hypixel.hytale.server.core.event.events.player.PlayerChatEvent
 
 object PlayerChatListener {

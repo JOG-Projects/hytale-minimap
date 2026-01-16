@@ -1,4 +1,4 @@
-package com.example.plugin.chat
+package com.jog.plugin.chat
 
 import com.hypixel.hytale.server.core.Message
 import com.hypixel.hytale.server.core.event.events.player.PlayerChatEvent
