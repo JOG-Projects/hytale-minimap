@@ -11,7 +11,7 @@ import com.hypixel.hytale.server.core.plugin.JavaPlugin
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit
 import javax.annotation.Nonnull
 
-class MinimapPlugin(@Nonnull init: JavaPluginInit) : JavaPlugin(init) {
+class MinimapPlugin(init: JavaPluginInit) : JavaPlugin(init) {
     override fun setup() {
         // Commands
         commandRegistry.registerCommand(CameraCommand())

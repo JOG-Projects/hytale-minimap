@@ -6,7 +6,7 @@ import com.hypixel.hytale.server.core.command.system.basecommands.CommandBase
 import javax.annotation.Nonnull
 
 class ExampleCommand : CommandBase("example", "An example command") {
-    override fun executeSync(@Nonnull context: CommandContext) {
+    override fun executeSync(context: CommandContext) {
         context.sendMessage(Message.raw("Hello world from kotlin!"))
     }
 }
