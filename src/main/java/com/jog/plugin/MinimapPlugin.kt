@@ -9,6 +9,7 @@ import com.hypixel.hytale.server.core.event.events.player.PlayerChatEvent
 import com.hypixel.hytale.server.core.event.events.player.PlayerReadyEvent
 import com.hypixel.hytale.server.core.plugin.JavaPlugin
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit
+import com.jog.plugin.commands.MinimapCommand
 import javax.annotation.Nonnull
 
 class MinimapPlugin(init: JavaPluginInit) : JavaPlugin(init) {
@@ -17,6 +18,7 @@ class MinimapPlugin(init: JavaPluginInit) : JavaPlugin(init) {
         commandRegistry.registerCommand(CameraCommand())
         commandRegistry.registerCommand(ExampleCommand())
         commandRegistry.registerCommand(TitleCommand())
+        commandRegistry.registerCommand(MinimapCommand())
 
         // Events
         eventRegistry.registerGlobal<String?, PlayerChatEvent?>(
